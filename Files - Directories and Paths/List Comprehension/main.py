@@ -1,7 +1,7 @@
 # This new list should contain every number in the list 'numbers' but each number should be squared.
-numbers = [1, 1, 2, 3, 5, 8, 13, 21, 34, 55]
-squared_numbers = [sq**2 for sq in numbers]
-print(squared_numbers)
+# numbers = [1, 1, 2, 3, 5, 8, 13, 21, 34, 55]
+# squared_numbers = [sq**2 for sq in numbers]
+# print(squared_numbers)
 
 # This new list should only contain the even numbers from the list numbers.
 even_result = [even for even in numbers if even % 2 == 0]
